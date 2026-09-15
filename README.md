@@ -53,7 +53,7 @@ The project allowed me to gain practical experience in full-stack web developmen
 
 ## 📸 Screenshots
 
-Screenshots of the application will be added here.
+![Uploading image.png…]()
 
 ## 🚀 Getting Started
 
