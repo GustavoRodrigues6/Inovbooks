@@ -1,145 +1,122 @@
-# Biblioteca
+# Inovbooks
 
-Aplicação web para gestão de livros, autores e editoras, desenvolvida com Laravel + Livewire + Vite.
+A web-based library management and e-commerce platform developed during my professional internship at INOVCORP.
 
-## Tecnologias
+## 📖 About the Project
 
-- PHP / Laravel
-- Livewire
-- SQLite (configuracao atual)
-- Node.js / npm
-- Vite + Tailwind CSS
+Inovbooks is a web application designed to manage a library's book catalog, requests and user interactions. The project also includes an e-commerce component, allowing books to be presented and managed through an online store.
 
-## Requisitos
+The project was developed as part of my professional internship, with a focus on backend and frontend development, database management and user authentication.
 
-- PHP 8.2+
+## ✨ Features
+
+- 📚 Book catalog management
+- 🔎 Book browsing and search
+- 👤 User authentication and account management
+- 📋 Book requests
+- 🛒 E-commerce functionality
+- 🔐 Access control
+- 🗄️ Database integration
+- 📱 Responsive user interface
+
+## 🛠️ Technologies
+
+- PHP
+- Laravel
+- SQLite
+- Blade
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+- DaisyUI
+- Git
+- GitHub
+
+## 💻 My Contribution
+
+During the development of Inovbooks, I worked on different parts of the application, including:
+
+- Developing backend functionality with Laravel and PHP
+- Creating and managing database structures
+- Implementing authentication and user-related functionality
+- Developing book catalog and request management features
+- Working on the e-commerce functionality
+- Developing and adapting frontend interfaces
+- Using Git and GitHub for version control
+
+## 🎓 Internship Project
+
+This project was developed during my professional internship at **INOVCORP**, as part of my Professional Higher Technical Course (CTeSP) in Web and Mobile Development.
+
+The project allowed me to gain practical experience in full-stack web development and apply concepts learned throughout my academic training in a professional environment.
+
+## 📸 Screenshots
+
+Screenshots of the application will be added here.
+
+## 🚀 Getting Started
+
+### Requirements
+
+- PHP
 - Composer
-- Node.js 18+
-- npm
-- SQLite configurado no ficheiro .env
+- Node.js and npm
+- Laravel
+- SQLite
 
-## Funcionalidades
+### Installation
 
-- Gestão de livros, autores e editoras
-- Requisições de livros por utilizadores
-- Painel de administração para gerir requisições
-- Filtros avançados por estado, datas e pesquisa
-- Feedback visual de requisições ativas, entregues, etc.
-- Sistema de autenticação (admin/cidadão)
-- Notificações de ações
+Clone the repository:
 
-## Utilização
-
-- Utilizador cidadão pode requisitar livros e pedir devolução
-- Admin pode aceitar, recusar e gerir todas as requisições
-- Filtros e pesquisas independentes para cada tabela
-
-## Instalação
-
-1. Clonar o repositório.
-2. Instalar dependências PHP e JS.
-3. Configurar ambiente.
-4. Gerar chave da aplicação.
-5. Executar migrações e seeders.
-
-### Comandos (Windows - PowerShell)
-
-```powershell
-composer install
-npm install
-copy .env.example .env
-php artisan key:generate
-php artisan migrate --seed
+```bash
+git clone git@github.com:GustavoRodrigues6/inovbooks.git
+cd inovbooks
 ```
 
-### Comandos (Linux/macOS - bash)
+Install PHP dependencies:
 
 ```bash
 composer install
+```
+
+Install frontend dependencies:
+
+```bash
 npm install
+```
+
+Create the environment file:
+
+```bash
 cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
 ```
 
-## Executar o projeto
-
-### Ambiente de desenvolvimento
-
-Terminal 1:
+Generate the application key:
 
 ```bash
-php artisan serve
+php artisan key:generate    
 ```
 
-Terminal 2:
+Configure the database in .env and run the migrations:
 
 ```bash
-npm run dev
+php artisan migrate
 ```
 
-### Build de produção
+Build the frontend assets:
 
 ```bash
 npm run build
 ```
 
-Nota: os ficheiros gerados em public/build não devem ser versionados no Git (já estão no .gitignore).
-
-## Testes
+Start the development server:
 
 ```bash
-php artisan test
-```
-
-### Testes Pest de Requisições (Feature)
-
-Executar apenas os testes de requisições:
-
-```bash
-php artisan test tests/Feature/RequisicaoTest.php
-```
-
-Executar cenários individuais (filtro por nome do teste):
-
-```bash
-php artisan test --filter "utilizador pode criar requisicao de livro"
-php artisan test --filter "requisicao nao pode ser criada sem livro valido"
-php artisan test --filter "utilizador pode devolver livro de requisicao ativa"
-php artisan test --filter "utilizador ve apenas as suas requisicoes"
-php artisan test --filter "nao e possivel requisitar livro sem stock disponivel"
-```
-
-## Atualizar no GitHub
-
-Fluxo recomendado no PowerShell:
-
-```powershell
-git status
-git add .
-git commit -m "test"
-git push origin main
-```
-
-Se estiveres a trabalhar noutra branch, substitui `main` pelo nome dessa branch.
-
-## Fluxo para nova máquina
-
-Depois de clonar o projeto:
-
-```bash
-composer install
-npm install
-php artisan key:generate
-php artisan migrate --seed
-npm run build
 php artisan serve
 ```
 
-```bash
-asdasd
-```
+### 📌 Notes
 
-## Autor
+This project was developed as part of a professional internship and is presented here as part of my software development portfolio.
 
-Projeto Biblioteca - Gustavo Rodrigues
