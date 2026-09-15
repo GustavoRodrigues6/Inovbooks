@@ -53,7 +53,14 @@ The project allowed me to gain practical experience in full-stack web developmen
 
 ## 📸 Screenshots
 
-![Uploading image.png…]()
+### Homepage
+![Inovbooks Homepage](screenshots/homepage.png)
+
+### Book Catalog
+![Inovbooks Book Catalog](screenshots/books.png)
+
+### Login
+![Inovbooks Login](screenshots/login.png)
 
 ## 🚀 Getting Started
 
