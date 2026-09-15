@@ -136,6 +136,10 @@ npm run build
 php artisan serve
 ```
 
+```bash
+asdasd
+```
+
 ## Autor
 
 Projeto Biblioteca - Gustavo Rodrigues
