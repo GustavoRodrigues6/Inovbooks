@@ -77,8 +77,8 @@ The project allowed me to gain practical experience in full-stack web developmen
 Clone the repository:
 
 ```bash
-git clone git@github.com:GustavoRodrigues6/inovbooks.git
-cd inovbooks
+git clone git@github.com:GustavoRodrigues6/Inovbooks.git
+cd Inovbooks
 ```
 
 Install PHP dependencies:
