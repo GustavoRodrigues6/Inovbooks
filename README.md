@@ -1,23 +1,21 @@
 # Inovbooks
 
-A web-based library management and e-commerce platform developed during my professional internship at INOVCORP.
+A web-based library management, e-commerce, and real-time messaging platform developed during my professional internship at INOVCORP.
 
 ## 📖 About the Project
 
-Inovbooks is a web application designed to manage a library's book catalog, requests and user interactions. The project also includes an e-commerce component, allowing books to be presented and managed through an online store.
+Inovbooks is a comprehensive web application designed to manage a library's book catalog, requests, and user interactions. The platform combines an e-commerce component for online book management with an integrated real-time chat system, allowing seamless communication between users.
 
-The project was developed as part of my professional internship, with a focus on backend and frontend development, database management and user authentication.
+The project was developed as part of my professional internship, focusing on full-stack web development, database management, user authentication, and real-time feature integration.
 
 ## ✨ Features
 
-- 📚 Book catalog management
-- 🔎 Book browsing and search
-- 👤 User authentication and account management
-- 📋 Book requests
-- 🛒 E-commerce functionality
-- 🔐 Access control
-- 🗄️ Database integration
-- 📱 Responsive user interface
+- 📚 **Book Catalog Management:** Interactive browsing, cataloging, and detailed search.
+- 💬 **Integrated Real-Time Chat:** Messaging system for user-to-user communication.
+- 🛒 **E-Commerce Functionality:** Online store flow for book purchasing and requests.
+- 👤 **Authentication & Access Control:** Role-based access and user account management.
+- 🗄️ **Database Integration:** Structured data management for users, books, and messages.
+- 📱 **Responsive UI:** Modern design built for desktop and mobile devices.
 
 ## 🛠️ Technologies
 
@@ -35,21 +33,19 @@ The project was developed as part of my professional internship, with a focus on
 
 ## 💻 My Contribution
 
-During the development of Inovbooks, I worked on different parts of the application, including:
+During the development of Inovbooks, I worked across the entire stack, including:
 
-- Developing backend functionality with Laravel and PHP
-- Creating and managing database structures
-- Implementing authentication and user-related functionality
-- Developing book catalog and request management features
-- Working on the e-commerce functionality
-- Developing and adapting frontend interfaces
-- Using Git and GitHub for version control
+- Developing backend functionality and business logic using Laravel and PHP.
+- Implementing the integrated real-time messaging system and user interactions.
+- Designing and managing database schemas for books, users, and chat records.
+- Building responsive frontend interfaces using Blade, JavaScript, and Tailwind CSS.
+- Managing code versions and repository workflows with Git and GitHub.
 
 ## 🎓 Internship Project
 
 This project was developed during my professional internship at **INOVCORP**, as part of my Professional Higher Technical Course (CTeSP) in Web and Mobile Development.
 
-The project allowed me to gain practical experience in full-stack web development and apply concepts learned throughout my academic training in a professional environment.
+It allowed me to apply key software engineering concepts, manage full-stack workflows, and build scalable web features in a real-world environment.
 
 ## 📸 Screenshots
 
@@ -58,6 +54,9 @@ The project allowed me to gain practical experience in full-stack web developmen
 
 ### Book Detail
 <img width="831" height="391" alt="books" src="https://github.com/user-attachments/assets/b322f126-a4df-4f8c-9882-03d07e96c38d" />
+
+### Real-Time Chat
+<img width="831" height="391" alt="chat-system" src="https://github.com/user-attachments/assets/55df8374-da2c-43f4-80b6-50f7bab2a28b" />
 
 ### Payment
 <img width="831" height="391" alt="checkout" src="https://github.com/user-attachments/assets/2c8c6391-4677-4428-861c-870dedc96bdb" />
@@ -79,51 +78,4 @@ Clone the repository:
 ```bash
 git clone git@github.com:GustavoRodrigues6/Inovbooks.git
 cd Inovbooks
-```
-
-Install PHP dependencies:
-
-```bash
-composer install
-```
-
-Install frontend dependencies:
-
-```bash
-npm install
-```
-
-Create the environment file:
-
-```bash
-cp .env.example .env
-```
-
-Generate the application key:
-
-```bash
-php artisan key:generate    
-```
-
-Configure the database in .env and run the migrations:
-
-```bash
-php artisan migrate
-```
-
-Build the frontend assets:
-
-```bash
-npm run build
-```
-
-Start the development server:
-
-```bash
-php artisan serve
-```
-
-### 📌 Notes
-
-This project was developed as part of a professional internship and is presented here as part of my software development portfolio.
 
