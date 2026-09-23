@@ -57,7 +57,7 @@ The project allowed me to gain practical experience in full-stack web developmen
 <img width="831" height="391" alt="homepage" src="https://github.com/user-attachments/assets/08de0990-7f0b-4448-a88f-d8b79282235c" />
 
 ### Book Detail
-<img width="1574" height="766" alt="books" src="https://github.com/user-attachments/assets/b322f126-a4df-4f8c-9882-03d07e96c38d" />
+<img width="831" height="391" alt="books" src="https://github.com/user-attachments/assets/b322f126-a4df-4f8c-9882-03d07e96c38d" />
 
 ### Login
 ![Inovbooks Login](screenshots/login.png)
