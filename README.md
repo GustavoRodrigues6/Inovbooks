@@ -59,8 +59,8 @@ The project allowed me to gain practical experience in full-stack web developmen
 ### Book Detail
 <img width="831" height="391" alt="books" src="https://github.com/user-attachments/assets/b322f126-a4df-4f8c-9882-03d07e96c38d" />
 
-### Login
-![Inovbooks Login](screenshots/login.png)
+### Payment
+<img width="831" height="391" alt="checkout" src="https://github.com/user-attachments/assets/2c8c6391-4677-4428-861c-870dedc96bdb" />
 
 ## 🚀 Getting Started
 
